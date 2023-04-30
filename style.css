@@ -271,7 +271,7 @@
    
     border-radius: 25px;
     width: 40vw;
-    height: 50vh;
+    height: 350px;
     box-shadow: -4px 6px 40px 2px #050a15;
     
 
@@ -573,7 +573,7 @@
     }
     
     .projectContainer{
-        height: 540px;
+        height: 54px;
         margin: 40px;
         flex-direction: column;
         
