@@ -220,42 +220,13 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About page end */
 
 /* Project Page */
 .project{
     
     width: auto;
-    height: 1600px;
+    height: 1800px;
     display: flex;
     flex-direction: column;
     
@@ -448,22 +419,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact page end */
-
-
-
 
 
 
@@ -477,39 +433,34 @@
     .container{
         width: 500px;
     }
-    /* Project page */
+/* Project page */
+
     .projectContainer{
-       
-      
         margin: 50px 0px;
-       
     }
-    /* contact page */
+
+ /* contact page */
+
     .contact{
         height: 600px;
     
     }
     .ContactContainer{
-        
         margin: 0px;
        padding: 20px;
        
     }
-   
-
-
-
 
 
 }
 @media (max-width: 750px){
 
     .navlist{
-        width: 70%;
-        height: 500px;
-      display: flex;
-      flex-direction: column;
-     margin-top: 50px;
+         width: 70%;
+         height: 500px;
+         display: flex;
+         flex-direction: column;
+         margin-top: 50px;
      
       
         
@@ -588,17 +539,13 @@
     border-radius: 23px;
     padding: 20px 40px;
     
-    
-    
 }
 
 .skillContainer{
     height: 900px;
     width: auto;
     margin: 10px auto;
-   
     grid-template-columns: auto auto;
-    
 
 }
 .logoBox{
@@ -607,21 +554,17 @@
     padding: 10px;
     margin: 15px;
     font-size: 16px;
-   
-    
     
 }
 /* About page end */
 
-
     /* project page */
+
     .project{
         width: auto;
         display: flex;
         flex-direction: column;
         overflow: hidden;
-        
-    
     }
     .heading{
         font-size: 40px;
@@ -636,9 +579,7 @@
         
     }
     .projectContainer .ProBox1{
-      
         font-size: 16px;
-        
         width: auto;
         margin: auto;
     
@@ -671,10 +612,10 @@
         
     }
 
-
 /* project page end */
 
 /* contact page */
+
 .contact{
     height: 1000px;
 
@@ -687,13 +628,9 @@
    
 }
 .MainDoc{
-    
-   
     width: auto;
     height: 500px;
     margin: auto;
-    
-
 }
 .MainDoc .doc1{
    
@@ -705,8 +642,6 @@
     height: 0px;
     font-size: 18px;
     margin: auto;
-
-
 }
 .from{
     border-radius: 18px;
