@@ -276,7 +276,8 @@
     width: auto;
     border-radius: 25px;
     height: 440px;
-    margin: 50px 80px;
+    margin: 40px 70px;
+    padding: 15px;
     display: flex;
     flex-direction: row;
     border: 1px solid transparent;
@@ -299,7 +300,7 @@
    
     border-radius: 25px;
     width: 40vw;
-    height: 350px;
+    height: 50vh;
     box-shadow: -4px 6px 40px 2px #050a15;
     
 
@@ -354,8 +355,9 @@
     align-items: center;
     box-shadow: 0px 15px 34px -21px #050a15;
 }
-.githubBtn i{
+.githubBtn i,a{
     color: black;
+    text-decoration: none;
 }
 .githubBtn:hover{
     background-color: rgba(197, 194, 194, 0.318);
@@ -369,6 +371,7 @@
 /* Contact page start */
 .contact{
     height: 800px;
+    padding: 20px 0px;
 
 }
 .ContactContainer{
@@ -641,8 +644,9 @@
     
     }
     .projectContainer .ProBox1 img{
-        width: 80vw;
-        height: auto;
+        width: 65vw;
+        height: 45vh;
+        border-radius: 12px;
     }
     .projectContainer .ProBox2{
         font-size: 16px;
@@ -650,9 +654,9 @@
         margin: auto;
     }
     .projectContainer .ProBox2 img{
-       
-        width: 80vw;
-        height: auto;
+        width: 65vw;
+        height: 45vh;
+        border-radius: 12px;
     }
     .projectBtn{
         font-size: 16px;
