@@ -79,10 +79,16 @@
     font-size: 25px;
     font-family: 'Lato', sans-serif;
 }
+#element{
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: bolder;
+}
 #btn{
     width: 160px;
     height: 80;
     padding: 10px;
+    margin: 10px 0px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     background-color: #465779;

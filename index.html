@@ -8,8 +8,8 @@
     <!-- Css link -->
     <link rel="stylesheet" href="style.css">
      <!-- font awesome link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <title>Portfolio - Sagar Kumar</title>
 </head>
 <body>
@@ -37,7 +37,19 @@
             <div class="intro">
                 <h4>Hi, I am</h4>
                 <h1 style="color: #34B575;">Sagar Kumar</h1>
-                <h3>Javascript | Front End Developer</h3>
+                <h3>Front End Developer</h3>
+                <span id="element" style="color: #34B575;" ></span>
+
+                <!-- Load library from the CDN -->
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+              
+                <!-- Setup and start animation! -->
+                <script>
+                  var typed = new Typed('#element', {
+                    strings: ['React developer','Graphic designer', 'Javascript developer'],
+                    typeSpeed: 120,
+                  });
+                </script>
                 <br>
                 <button  type="button" id="btn">Resume  <i class="fa fa-cloud-download" ></i> </button>
 

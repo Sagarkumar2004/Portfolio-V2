@@ -6,10 +6,12 @@ document.querySelector(".menuBox").addEventListener("click", function(){
     document.querySelector(".menu3").classList.toggle("cross2");
     document.querySelector(".navlist").classList.toggle("v-class");
     document.querySelector(".navbar").classList.toggle("navgo");
-    
-    
-   
+
+
   });
+
+//  let AutoType = document.getElementById("element")
+
 
   
 const observer = new IntersectionObserver((entries) => {
@@ -26,3 +28,39 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+// Email js set up
+
+
+document.querySelector(".contactBtn").addEventListener("click", function(e){
+
+  e.preventDefault();
+  console.log("I am click")
+  var templateParams = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("massage").value,
+  };
+  
+  emailjs.send('service_5pzf2xz', 'template_4hfiznz', templateParams)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+    alert("your massage sent SUCCESSFULLY!");
+
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("subject").value = "";
+    document.getElementById("massage").value = "";
+})
+    
+
+
+ 
+
+
+ 
+

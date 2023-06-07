@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="favicon" href="Image/favicon-32x32.png">
      <!-- Css link -->
      <link rel="stylesheet" href="style.css">
      <!-- font awesome link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Email js -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("E3be2O1q_IIS3y19L");
+   })();
+</script>
+
+<!-- email js end -->
 
     <title>Portfolio</title>
 </head>
@@ -40,7 +52,7 @@
                 Send me a message with your info.</hp>
             </div>
             <div class="doc2">
-             <p>sk8856330@outlook.com</p>
+             <p>sk8856330@gmail.com</p>
              <p>Delhi, India</p>
             </div>
 
@@ -48,11 +60,11 @@
         <div class="from">
             <form action="">
 
-            <input type="text" name="name" id="name" placeholder="your Name">
-            <input type="email" name="E-mail" id="e-mail" placeholder="your E-mail">
-            <input type="text" name="Phone numaber" id="subject" placeholder="Subject">
-            <textarea name="text" id="Massage" cols="40" rows="5" placeholder="your massage"></textarea>
-            <button type="submit" class="contactBtn"> Send Massage</button>
+            <input type="text" id="name" placeholder="your Name">
+            <input type="email" id="email" placeholder="your E-mail">
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea  id="massage" cols="40" rows="5" placeholder="your massage"></textarea>
+            <button type="submit" class="contactBtn" > Send message</button>
 
               </form>
         </div>
