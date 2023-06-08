@@ -49,7 +49,7 @@ document.querySelector(".contactBtn").addEventListener("click", function(e){
     }, function(error) {
        console.log('FAILED...', error);
     });
-    alert("your massage sent SUCCESSFULLY!");
+    alert("your message sent SUCCESSFULLY!");
 
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
