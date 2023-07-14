@@ -59,7 +59,7 @@
 .home{
     width: auto;
     height: 700px;
-    background-image: url(Image/bg-7.png);
+    background-image: url(Image/bg1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +152,7 @@
     right: 20px;
     top: 20px;
 }
-.menu1{
+.menu1, .menu2, .menu3{
     background-color: #BAB8DC;
     width: 28px;
     height: 2px;
@@ -160,21 +160,8 @@
     transition: 0.6s;
 
 }
-.menu2{
-    background-color: #BAB8DC;
-    width: 28px;
-    height: 2px;
-    margin: 5px;
 
-}
-.menu3{
-    background-color: #BAB8DC;
-    width: 28px;
-    height: 2px;
-    margin: 5px;
-    transition: 0.6s;
 
-}
 /* About Page */
 
 .About{
@@ -522,7 +509,7 @@
        
     }
     .home{
-        background-image: url(Image/bg-6.png);
+        background-image: url(Image/bg2.png);
        
     }
     .container{
