@@ -5,21 +5,22 @@
     margin: 0;
 }
 #loading {
-    width: 100vw;
+   
     height: 100vh;
-    top: 0px;
-    left: 0px;
+   
     position: fixed;
     display: block; 
     z-index: 99}
 
 #loading-image {
-  
+   width: 100vw;
+   height: 60vh;
     mix-blend-mode: multiply;
     margin: auto;
-    z-index: 100
+    z-index: 100;
 }
 #main{
+    
     opacity: 0;
 } 
 .navbar{

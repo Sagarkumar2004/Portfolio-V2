@@ -1,8 +1,8 @@
 console.log("javascript is runing")
 
 window.onload = function(){
-  document.querySelector("#loading").style.display = "none";
-  document.getElementById('main').style.opacity ="1"
+  document.querySelector("#loading").style.display = "block";
+  document.getElementById('main').style.opacity ="0"
 }
 
  
