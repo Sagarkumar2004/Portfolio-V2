@@ -1,4 +1,10 @@
 console.log("javascript is runing")
+
+window.onload = function(){
+  document.querySelector("#loading").style.display = "none";
+  document.getElementById('main').style.opacity ="1"
+}
+
  
 document.querySelector(".menuBox").addEventListener("click", function(){
     document.querySelector(".menu1").classList.toggle("cross1");
