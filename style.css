@@ -585,6 +585,7 @@
 
     .project{
         width: auto;
+        height: 2400px;
         display: flex;
         flex-direction: column;
         overflow: hidden;
